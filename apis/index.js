@@ -1,5 +1,4 @@
 const router = require('express').Router()
 
-router.use('/transaction', require('./tnxAnalyzer'))
-
+router.use('/tx', require('./tnxAnalyzer'))
 module.exports = router
