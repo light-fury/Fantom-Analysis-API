@@ -27,7 +27,7 @@ router.get('/:address', async (req, res) => {
       return res.status(200).json({
         price: _priceStore.price,
         address: _priceStore.address,
-        data: 'Price for this token will be available in 5 mins.',
+        data: 'Price for this token will be available in 2 mins.',
       })
     }
   } catch (error) {
