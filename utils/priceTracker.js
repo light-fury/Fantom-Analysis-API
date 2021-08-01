@@ -26,7 +26,7 @@ const updatePrice = async () => {
   } catch (error) {}
   setTimeout(async () => {
     await updatePrice()
-  }, 1000 * 60 * 2)
+  }, 1000 * 60 * 5)
 }
 
 module.exports = updatePrice
