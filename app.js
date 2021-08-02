@@ -9,6 +9,7 @@ const cors = require('cors')
 
 const mongoose = require('mongoose')
 require('./models/price')
+require('./models/nftcontract')
 
 const { setGasInfo } = require('./utils/variable')
 const { fetchBlock } = require('./utils/fetchBlock')
